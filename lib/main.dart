@@ -39,8 +39,8 @@ class MyHomePage extends StatefulWidget {
 
 void config() {
   //Setting application in fullscreen mode.
-  // SystemChrome.setEnabledSystemUIOverlays([]);
-  // SystemChrome.setEnabledSystemUIMode;
+  //SystemChrome.setEnabledSystemUIOverlays([]);
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual);
   //Setting the orientation of the app in landscape mode.
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.landscapeLeft, DeviceOrientation.landscapeRight]);
